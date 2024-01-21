@@ -1,5 +1,6 @@
 /coverage
 /dist-demo
+/node_modules
 /.docz
 /demo/dist
 npm-debug.log*
