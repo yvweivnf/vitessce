@@ -14,6 +14,7 @@ settings:
 env:
   cypress/globals: true
 rules:
+  linebreak-style: 0
   no-console: [2, { "allow": ["warn", "error", "info", "groupCollapsed", "groupEnd"]}]
   # My practice is to use "log" for messages I intend to clean up before merging.
   # All these others reflect the intension that they should be left in the codebase.

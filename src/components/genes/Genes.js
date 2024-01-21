@@ -31,6 +31,7 @@ export default function Genes(props) {
         }
       } else if (selection.name) {
         setGeneSelection([selection.name]);
+        setSearchTerm(selection.name);
       }
     }
   }

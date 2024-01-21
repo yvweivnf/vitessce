@@ -183,7 +183,7 @@ class Scatterplot extends AbstractSpatialOrScatterplot {
       const nodes = cellSetPolygons.map(p => ({
         x: p.centroid[0],
         y: p.centroid[1],
-        label: p.name,
+        label: `${p.name} Input %`,
       }));
 
       const collisionForce = this.cellSetsForceSimulation
